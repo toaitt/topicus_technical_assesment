@@ -17,4 +17,6 @@ Thumbs.db        # Ignore Windows specific system files
 
 # Ignore any other specific files
 secret_config.yaml  # Ignore a specific file named secret_config.yaml
+
+# Ignore screenshot file appear while running test
 Screen/login_page/temp_screenshot.png
