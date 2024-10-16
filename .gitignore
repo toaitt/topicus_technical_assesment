@@ -1,0 +1,20 @@
+# Ignore compiled Python files
+__pycache__/     # Ignore directory named __pycache__
+*.py[cod]        # Ignore files ending in .pyc, .pyo, and .pyd
+
+# Ignore virtual environment directory
+venv/            # Ignore directory named venv
+
+# Ignore PyCharm specific files
+.idea/           # Ignore directory named .idea
+
+# Ignore log files
+*.log            # Ignore all files ending with .log
+
+# Ignore OS generated files
+.DS_Store        # Ignore MacOS specific system files
+Thumbs.db        # Ignore Windows specific system files
+
+# Ignore any other specific files
+secret_config.yaml  # Ignore a specific file named secret_config.yaml
+Screen/login_page/temp_screenshot.png
